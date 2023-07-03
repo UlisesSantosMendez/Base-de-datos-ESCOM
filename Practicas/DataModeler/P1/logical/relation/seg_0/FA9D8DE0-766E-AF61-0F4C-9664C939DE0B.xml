@@ -1,0 +1,46 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Asignado" directorySegmentName="seg_0" id="FA9D8DE0-766E-AF61-0F4C-9664C939DE0B">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:25:53 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>814F1495-506C-EFAD-D192-2D3B0D0AC3DB</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>3E17FB4C-BD6C-2D8A-8D99-045E0806CEC4</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Hora Inicio" id="DD8DC94E-54EA-38D6-25F0-829477C26B39">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:26:10 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+<attribute name="Hora Fin" id="1DD9C52E-FE3B-19DD-FAAF-123C7A970F33">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:26:24 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>

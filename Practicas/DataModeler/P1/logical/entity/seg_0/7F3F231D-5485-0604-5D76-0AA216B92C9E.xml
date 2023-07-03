@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7F3F231D-5485-0604-5D76-0AA216B92C9E" name="Invitado">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:14:58 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Direccion" id="7A95C035-0783-8936-73DF-73879860930D">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:15:28 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="A70A78E5-E487-F0FD-2176-F1A93476E8BF">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:15:42 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellidos" id="FFBB461E-9EBB-7042-7DC7-8333A62F7616">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:15:55 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero" id="00DEE12B-4989-A16A-8CDA-74339F5B01A6">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:19:22 UTC</createdTime>
+<generatorID>630967C8-5C0B-C763-C45F-9D3B8D6A36E6</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<referedAttribute>9ED78D41-4119-3E4C-3A2A-9018813A4F86</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo sala" id="4368F0AE-7740-07E8-83D5-FD498223359C">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:19:22 UTC</createdTime>
+<generatorID>630967C8-5C0B-C763-C45F-9D3B8D6A36E6</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<referedAttribute>563BDB22-DF77-46BB-B297-1744251FAD82</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre1" id="9DBF64ED-77FA-90EC-4CC6-7CC6898E8FE3">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:23:32 UTC</createdTime>
+<generatorID>AE43AC7A-A86F-804F-F95E-29D8D772E025</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>A70A78E5-E487-F0FD-2176-F1A93476E8BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellidos1" id="7FE9C7B8-BC1E-D7A0-F365-0140B03B3DC0">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:23:32 UTC</createdTime>
+<generatorID>AE43AC7A-A86F-804F-F95E-29D8D772E025</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>FFBB461E-9EBB-7042-7DC7-8333A62F7616</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

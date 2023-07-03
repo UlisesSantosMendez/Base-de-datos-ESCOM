@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3E17FB4C-BD6C-2D8A-8D99-045E0806CEC4" name="Mesa">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:01:36 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Numero" id="9ED78D41-4119-3E4C-3A2A-9018813A4F86">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:02:07 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Capacidad" id="C8A032A9-11CD-53D3-379F-FFC61AB86790">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:02:40 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Codigo sala" id="563BDB22-DF77-46BB-B297-1744251FAD82">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:11:26 UTC</createdTime>
+<generatorID>2BC45DE3-6FC7-CCF7-2C53-204CA07E4DC1</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<referedAttribute>065BDEF8-2248-B080-EF06-0CD05C329A90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="26833A29-1F60-94B8-88B9-0D7A10EB9505" name="Numero">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:02:24 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>9ED78D41-4119-3E4C-3A2A-9018813A4F86,2BC45DE3-6FC7-CCF7-2C53-204CA07E4DC1</newElementsIDs>
+<usedAttributes>
+<attributeRef>9ED78D41-4119-3E4C-3A2A-9018813A4F86</attributeRef>
+<attributeRef>563BDB22-DF77-46BB-B297-1744251FAD82</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

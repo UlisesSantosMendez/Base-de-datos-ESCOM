@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37C7EBFA-BC91-2C3D-9693-4895BBBBDBD3" name="Regalo">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:27:16 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Tipo" id="3977D0E8-20DB-CF09-6070-4C2FA069EF4C">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:27:29 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripción" id="11A4FC79-3667-FEF0-FECC-8BF117459F16">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:27:45 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="849759F5-03AE-2CD8-1849-5ACC00A14142">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:29:43 UTC</createdTime>
+<generatorID>BA8CBA44-6323-6925-2BA0-6933F61C48EE</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<referedAttribute>A70A78E5-E487-F0FD-2176-F1A93476E8BF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Apellidos" id="709E0A3F-114F-A3E9-68A3-6082426575FF">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:29:43 UTC</createdTime>
+<generatorID>BA8CBA44-6323-6925-2BA0-6933F61C48EE</generatorID>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<referedAttribute>FFBB461E-9EBB-7042-7DC7-8333A62F7616</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="06BE2433-C8E5-4FDC-7545-CEE18E1EA572" name="Tipo">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:28:05 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>3977D0E8-20DB-CF09-6070-4C2FA069EF4C,11A4FC79-3667-FEF0-FECC-8BF117459F16</newElementsIDs>
+<usedAttributes>
+<attributeRef>3977D0E8-20DB-CF09-6070-4C2FA069EF4C</attributeRef>
+<attributeRef>11A4FC79-3667-FEF0-FECC-8BF117459F16</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

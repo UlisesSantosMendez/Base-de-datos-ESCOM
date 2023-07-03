@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="814F1495-506C-EFAD-D192-2D3B0D0AC3DB" name="Camarero">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:24:03 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="DNI" id="951E2405-D907-BBA5-FE79-43C5AC379D5C">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:24:26 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="3D8FF286-2C1E-67EF-E0E3-97D2CF9C30DC">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:24:49 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EE8E105E-175F-2618-7D29-DBB53AB434C5" name="DNI">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-09 23:24:45 UTC</createdTime>
+<ownerDesignName>P1</ownerDesignName>
+<engineerTo>
+<item key="B0425FEB-A99F-490A-29C1-9EFB5F6F6165" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>951E2405-D907-BBA5-FE79-43C5AC379D5C</newElementsIDs>
+<usedAttributes>
+<attributeRef>951E2405-D907-BBA5-FE79-43C5AC379D5C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
