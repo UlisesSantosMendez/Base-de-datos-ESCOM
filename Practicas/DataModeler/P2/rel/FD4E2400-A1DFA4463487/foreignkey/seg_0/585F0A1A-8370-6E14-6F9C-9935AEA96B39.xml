@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="585F0A1A-8370-6E14-6F9C-9935AEA96B39" containerWithKeyObject="B24DC940-49D6-D5EC-5003-898B7C348EC6" localFKIndex="C027EA93-254C-89BE-CD69-6FB6C504A87A" name="Piso_Garaje_FK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>E57A782C-21CA-A7F2-4496-5602A311E463</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<referredTableLongName>Garaje</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BBEE4A6A-1731-2860-8B44-AF576FAF1646</referredTableID>
+<keyObject>DA4182A1-DB94-BCFC-7C37-D5DA30E2C9AC</keyObject>
+<referredKeyID>DA4182A1-DB94-BCFC-7C37-D5DA30E2C9AC</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>No__Garaje</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

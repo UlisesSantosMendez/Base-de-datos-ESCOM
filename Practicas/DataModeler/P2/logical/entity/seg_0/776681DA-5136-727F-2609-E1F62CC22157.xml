@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="776681DA-5136-727F-2609-E1F62CC22157" name="Edificio">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:35:15 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="FD4E2400-0B9E-D9AB-7A0E-A1DFA4463487" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="No. Edificio" id="F09C88E7-5258-3DEA-C48D-FC0F443EFE85">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:35:30 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="FD4E2400-0B9E-D9AB-7A0E-A1DFA4463487" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDB30BB0-E947-A593-1FE6-41390204F06C" name="Edificio PK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:35:44 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="FD4E2400-0B9E-D9AB-7A0E-A1DFA4463487" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F09C88E7-5258-3DEA-C48D-FC0F443EFE85</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

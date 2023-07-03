@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BA34C0A5-BBE2-DBD4-4760-2A0941CA99F6" name="Piso">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:18:10 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="FD4E2400-0B9E-D9AB-7A0E-A1DFA4463487" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>3D3F7A9F-98C6-4B10-9A3C-3724B420BCDB</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="No. Garaje" id="7941FDEA-2A89-028D-F27C-4BEDDBE806C4">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:25:32 UTC</createdTime>
+<generatorID>E57A782C-21CA-A7F2-4496-5602A311E463</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="FD4E2400-0B9E-D9AB-7A0E-A1DFA4463487" value="true"/>
+</engineerTo>
+<referedAttribute>5F6C2350-4DA8-122C-545C-B862994CF84B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID Piso" id="BF3CBA26-8CE3-B0F8-6289-84302D8A2793">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:26:36 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="FD4E2400-0B9E-D9AB-7A0E-A1DFA4463487" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="286E51FF-9EDE-A418-4AD9-09C6B0117CB9" name="Piso PK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:26:49 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="FD4E2400-0B9E-D9AB-7A0E-A1DFA4463487" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BF3CBA26-8CE3-B0F8-6289-84302D8A2793</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

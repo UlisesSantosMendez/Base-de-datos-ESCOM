@@ -1,0 +1,37 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8032338B-1CB2-45D5-F9D9-AFB6478304BD" name="Persona">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>82DCAF24-5989-3E8B-7224-F46BA3417250</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DNI" id="7453F18F-03AD-ABB5-761E-74EE9C781909">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>FFBF8CF2-7779-1E6C-14BC-947A103F5D44</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="13A36452-2625-F02E-31E8-5CED2B7C7B4C" name="Persona_PK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>5807B6F9-6ED7-8EC9-0C92-FCB71E7D4D4C</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7453F18F-03AD-ABB5-761E-74EE9C781909"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,121 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E1A8BF9F-F65C-32C3-36FA-56323782C873" name="Trabajadores">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>A03246C7-90C5-4523-49CE-F01C5F5B3D98</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DNI" id="2A84F4D3-4E66-F62A-6EBE-C17420892808">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>FFBF8CF2-7779-1E6C-14BC-947A103F5D44</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DDE20157-5BB4-7298-8C2A-184971754F7B" referredColumn="7453F18F-03AD-ABB5-761E-74EE9C781909"/>
+</associations>
+</Column>
+<Column name="DNI1" id="5CB1133E-6C25-B4EB-B0EB-FA76E6AF7B84">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>C6E77CA6-3F19-91E1-863F-0BF29797FA96</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Teléfono_Fijo" id="996163C0-9D89-3230-9AD3-D647D41BCC80">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>F89758E0-11DC-A787-0350-78B60CE29659</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Móvil" id="4E1EC38B-4B9D-EF96-267B-B2513FBABC5E">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>5CC72AC9-3981-1FE4-9C29-D6633AC23FC6</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nombre" id="20D29C49-4D48-3F30-597E-5574DD87D334">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>D3B6FD3B-E6C4-ADFB-3641-201180A5C5CE</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Apellidos" id="F360FE8C-8BFC-71F6-CDDD-B5A4BE2E6A74">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>CAB4F959-DB49-810E-B898-C43070030581</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96DACD40-7DFC-0CE3-B3F3-814494A461F3" name="Trabajadores_PK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>5807B6F9-6ED7-8EC9-0C92-FCB71E7D4D4C</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A84F4D3-4E66-F62A-6EBE-C17420892808"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1C40A180-3F07-6A3C-736B-416B4E7D98BE" name="Trabajadores_PKv1">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>80725A38-2B83-789A-144C-03A031E28C32</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5CB1133E-6C25-B4EB-B0EB-FA76E6AF7B84"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A79E6489-6AC7-7F8C-6029-88290EFC9428" name="Trabajadores_Persona_FK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>20B23EAB-F0BB-B33E-04C0-DC6C7CFF31BB</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A84F4D3-4E66-F62A-6EBE-C17420892808"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

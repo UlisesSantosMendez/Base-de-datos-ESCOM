@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2481B157-40DD-839B-9363-93F419B4E94E" name="Local">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>000CDECA-E8C8-9BDE-8BBD-6F774766F7F6</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Inmueble" id="CD365F42-B020-146D-6C45-E8B048BC427E">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>2F99FA05-56E7-759E-03BB-B574D26F483D</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="596B23F2-B5D0-0A39-676D-E6650A90A5EF" referredColumn="4EA2D72D-DA85-5FE1-162B-774E5C7C5EDB"/>
+</associations>
+</Column>
+<Column name="Uso" id="C18C8070-6CFD-45A1-0228-9897D795CE3B">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>5158584A-DAB7-4104-4185-045585F4C1BA</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Servicio" id="57220C0C-9ACA-2EBF-D554-1D33F25C3CD0">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>28974835-51BC-EE99-6C81-9E594ABEBEFB</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FE7D4800-E52B-9938-39F2-381CDE331939" name="Local_PK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>61711A55-CB34-5EA9-7C09-EA21F1E413AB</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD365F42-B020-146D-6C45-E8B048BC427E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF018D8B-8E58-FCC4-2D77-D423D7DBC667" name="Local_Inmueble_FK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>BDE3340F-02A4-A3D0-F485-8A8CB6DFDA1C</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CD365F42-B020-146D-6C45-E8B048BC427E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

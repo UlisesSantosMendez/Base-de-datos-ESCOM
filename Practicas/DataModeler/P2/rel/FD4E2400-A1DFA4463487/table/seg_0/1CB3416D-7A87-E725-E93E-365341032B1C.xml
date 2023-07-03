@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CB3416D-7A87-E725-E93E-365341032B1C" name="Compra">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Clientes_DNI" id="00B01D60-9C2F-60D7-E7BE-23DC67968E47">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DA34DE38-75A6-0D5E-5275-629CC2865329" referredColumn="62BA2D0B-E72E-8885-E55D-492D6C722E5A"/>
+</associations>
+</Column>
+<Column name="Inmueble_ID_Inmueble" id="5982CDA2-EBFC-A659-68EC-C2FF320BEF11">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EBC94D2E-D2D0-88EB-9D2E-DF36718973A2" referredColumn="4EA2D72D-DA85-5FE1-162B-774E5C7C5EDB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="02C872CC-C33C-2222-2811-7FE810861DBA" name="Compra_PK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00B01D60-9C2F-60D7-E7BE-23DC67968E47"/>
+<colUsage columnID="5982CDA2-EBFC-A659-68EC-C2FF320BEF11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EB439AB2-31EB-F6C2-454C-ED95FF3AD18F" name="Compra_Clientes_FK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>C49997BD-F34A-B12F-D93D-60426387BCBA</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="00B01D60-9C2F-60D7-E7BE-23DC67968E47"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F0FE4A31-E6D7-FE04-6A39-5D7E342E2C17" name="Compra_Inmueble_FK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>C49997BD-F34A-B12F-D93D-60426387BCBA</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5982CDA2-EBFC-A659-68EC-C2FF320BEF11"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

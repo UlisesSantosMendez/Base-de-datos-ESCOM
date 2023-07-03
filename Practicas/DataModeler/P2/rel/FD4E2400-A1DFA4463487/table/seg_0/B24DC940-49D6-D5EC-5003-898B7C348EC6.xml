@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B24DC940-49D6-D5EC-5003-898B7C348EC6" name="Piso">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>BA34C0A5-BBE2-DBD4-4760-2A0941CA99F6</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Inmueble" id="0E592C27-EAF8-86A1-A044-984A017C7B57">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>2F99FA05-56E7-759E-03BB-B574D26F483D</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1DDDC41-B19B-71C9-175C-D54B34AE2686" referredColumn="4EA2D72D-DA85-5FE1-162B-774E5C7C5EDB"/>
+</associations>
+</Column>
+<Column name="Garaje_No__Garaje" id="7F92B4C5-7E17-7689-B861-EE8180B7E3FD">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>7941FDEA-2A89-028D-F27C-4BEDDBE806C4</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="585F0A1A-8370-6E14-6F9C-9935AEA96B39" referredColumn="EFD6BF0E-2CC3-D8DB-7700-A1916BAC52DC"/>
+</associations>
+</Column>
+<Column name="ID_Piso" id="59285C63-241D-C691-72FE-487EAC2535DF">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>BF3CBA26-8CE3-B0F8-6289-84302D8A2793</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B0A086F9-092B-054C-CFEA-BC07A8671482" name="Piso_PK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>61711A55-CB34-5EA9-7C09-EA21F1E413AB</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E592C27-EAF8-86A1-A044-984A017C7B57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="865C4368-56E0-EB57-8FB1-2E9527F79382" name="Piso_PKv1">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>286E51FF-9EDE-A418-4AD9-09C6B0117CB9</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59285C63-241D-C691-72FE-487EAC2535DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A99617E1-20C4-3815-DE29-0D6F8DE5DC10" name="Piso__IDX">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>E57A782C-21CA-A7F2-4496-5602A311E463</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="7F92B4C5-7E17-7689-B861-EE8180B7E3FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DF48A56C-80C3-D3FA-86B2-E717A985C9E3" name="Piso_Inmueble_FK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>28220AFD-F9C5-225C-B94D-2D0399FD03F9</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0E592C27-EAF8-86A1-A044-984A017C7B57"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C027EA93-254C-89BE-CD69-6FB6C504A87A" name="Piso_Garaje_FK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:50:13 UTC</createdTime>
+<generatorID>E57A782C-21CA-A7F2-4496-5602A311E463</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7F92B4C5-7E17-7689-B861-EE8180B7E3FD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

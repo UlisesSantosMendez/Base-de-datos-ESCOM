@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D53D2A9C-FFF3-7BE8-FE6B-B1D85C984B99" name="Garaje">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:18:47 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="FD4E2400-0B9E-D9AB-7A0E-A1DFA4463487" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>3D3F7A9F-98C6-4B10-9A3C-3724B420BCDB</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="No. Garaje" id="5F6C2350-4DA8-122C-545C-B862994CF84B">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:19:43 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="FD4E2400-0B9E-D9AB-7A0E-A1DFA4463487" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No. planta" id="2D7B0920-4AC0-CC54-0A03-C81CA5AEFE05">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:20:07 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="FD4E2400-0B9E-D9AB-7A0E-A1DFA4463487" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No. Edificio" id="C1C415FD-9E62-E190-FE98-BE15E07FEBF7">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:38:12 UTC</createdTime>
+<generatorID>FCA1D161-0234-5FF2-CD46-731B20EBFD31</generatorID>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="FD4E2400-0B9E-D9AB-7A0E-A1DFA4463487" value="true"/>
+</engineerTo>
+<referedAttribute>F09C88E7-5258-3DEA-C48D-FC0F443EFE85</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5989DA44-EDB6-4D3B-8ECB-D6D8BC2C50DD" name="Garaje PK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-11-23 23:19:49 UTC</createdTime>
+<ownerDesignName>P2</ownerDesignName>
+<engineerTo>
+<item key="FD4E2400-0B9E-D9AB-7A0E-A1DFA4463487" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5F6C2350-4DA8-122C-545C-B862994CF84B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
