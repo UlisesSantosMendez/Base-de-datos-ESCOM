@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C5D18EB-F27E-2B0C-884D-4172829FD4FC" name="Tienda">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 01:43:51 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Direccion" id="F9FE4E35-3267-DADD-6524-6E69994013C7">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 01:43:56 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Identificador" id="4A6A3A6E-723A-3437-1D59-54D435A9E5BB">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 01:44:10 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre de Empresa" id="3341AF2A-CD41-AAA9-B354-2A232C6E195B">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:57:30 UTC</createdTime>
+<generatorID>A4043022-32F2-9F70-7A7B-821DB088A228</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<referedAttribute>D18B2714-5AFA-E192-6F03-76E59581FC27</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C61713DE-A613-E417-0F75-3CE5B935D2F0" name="Tienda PK">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 01:45:54 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4A6A3A6E-723A-3437-1D59-54D435A9E5BB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

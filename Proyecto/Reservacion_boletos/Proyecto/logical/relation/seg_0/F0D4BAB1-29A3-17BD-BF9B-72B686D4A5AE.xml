@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Entregan" directorySegmentName="seg_0" id="F0D4BAB1-29A3-17BD-BF9B-72B686D4A5AE">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:52:55 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6A2E4294-FE1E-8FD0-58CC-DE41CCF0A248</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A86B70D5-C04E-3F35-8ECC-DE902CFAA3D5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

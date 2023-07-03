@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BB79AC45-E861-9D9F-77B9-5B822E1EA891" name="Boleto">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:29:02 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Folio" id="C062AC4A-459D-42ED-8698-20AE90136B88">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:29:12 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Precio" id="F82C0DFB-D1DF-C6A1-4169-2D35EAF98400">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:31:00 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clave del evento" id="53B761C5-7401-1DD2-4767-608DA28B0E20">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:31:13 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Clasificacion" id="57E464B2-E2F5-3849-BFDF-876BBFF0C0AE">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:31:54 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="93E4AE53-A572-D75F-9124-829EDEAF2528">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:35:42 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Hora" id="3CE14A35-FD68-B38F-6AD0-16607A9D8AE5">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:35:55 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="AE3982BE-9F15-32B2-0820-C41A4F61CAA5">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:56:02 UTC</createdTime>
+<generatorID>653370C3-C53B-348D-5720-EEB9D944057F</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<referedAttribute>917C177E-3732-66D2-FCE7-017BF64B127E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Usuario" id="0ABB6B28-6061-26B8-6247-E41109980F0C">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:56:13 UTC</createdTime>
+<generatorID>E79A7A5E-A07D-780F-D14C-929D1854CA33</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<referedAttribute>A16A0D00-F86A-2468-62B6-FFFC1C72ED1B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre1" id="3C26B346-F541-CFCB-AFB5-8C1F18D2F7AE">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:56:13 UTC</createdTime>
+<generatorID>E79A7A5E-A07D-780F-D14C-929D1854CA33</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<referedAttribute>3B28808D-60DF-304F-1D56-DA0CA9A882B5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0AD880EF-1206-84D1-5C31-7FB77427FCAC" name="Boleto PK">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:29:25 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C062AC4A-459D-42ED-8698-20AE90136B88</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

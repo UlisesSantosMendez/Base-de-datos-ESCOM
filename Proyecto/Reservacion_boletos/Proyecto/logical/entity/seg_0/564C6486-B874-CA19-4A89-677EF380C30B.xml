@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="564C6486-B874-CA19-4A89-677EF380C30B" name="Recoger en tienda">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:21:36 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Folio" id="A1CBC581-5210-484B-343C-024BED5AE64E">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:21:44 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre del cliente" id="184B2F3E-34D6-CE9B-A7D9-3B6FEC706DC5">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:22:11 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Numero de Tienda" id="E1059E0E-D7F0-14CB-F724-915C00E2192F">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:27:31 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Monto" id="B303C558-BFE5-1A54-DF9C-4D0E28A0146A">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:54:54 UTC</createdTime>
+<generatorID>EFC926B9-B7C1-023D-EF88-DDAF3F3DE7CA</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<referedAttribute>B3578CA0-060F-C7E7-212E-2D373A5FC212</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha" id="8D0B1901-A50F-E680-6AC1-0025F35C03FA">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:54:54 UTC</createdTime>
+<generatorID>EFC926B9-B7C1-023D-EF88-DDAF3F3DE7CA</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<referedAttribute>C511A70F-6D14-D827-09D6-876A426483F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Metodo" id="97A2EFD7-2087-476F-3E7E-F9A7A1FECA80">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:54:54 UTC</createdTime>
+<generatorID>EFC926B9-B7C1-023D-EF88-DDAF3F3DE7CA</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<referedAttribute>781A8C32-03C9-548E-BCD6-F1EA0F0999C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Identificador" id="D45D642F-C496-DEB5-ADA0-01A85A305431">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:55:35 UTC</createdTime>
+<generatorID>2D092E7B-C2DE-73B8-E7EE-3FF166AD0B0B</generatorID>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<referedAttribute>4A6A3A6E-723A-3437-1D59-54D435A9E5BB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9E876D93-DC5A-C75C-2B84-E2703D5C8314" name="Recoger en tienda PK">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:22:00 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A1CBC581-5210-484B-343C-024BED5AE64E</attributeRef>
+<attributeRef>184B2F3E-34D6-CE9B-A7D9-3B6FEC706DC5</attributeRef>
+<attributeRef>D45D642F-C496-DEB5-ADA0-01A85A305431</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

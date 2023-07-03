@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Seleccione" directorySegmentName="seg_0" id="02E493A2-E88C-6C4A-28E2-4A641A185E9B">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:51:14 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<sourcePk>5361AC62-6658-DD40-AC9D-9DC75B52214B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4898B827-E9C1-91B7-9F18-8C9957833D8D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>6A2E4294-FE1E-8FD0-58CC-DE41CCF0A248</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

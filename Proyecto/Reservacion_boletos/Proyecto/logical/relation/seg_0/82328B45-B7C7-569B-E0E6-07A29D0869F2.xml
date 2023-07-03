@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Envio" directorySegmentName="seg_0" id="82328B45-B7C7-569B-E0E6-07A29D0869F2">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:54:45 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<sourcePk>FAAF8B7D-3513-20E2-6CB0-53DAA495E22D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>06274255-AE3D-2A58-07A3-E1CE4043BFA6</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>C65D13BC-AE30-4E2B-0E6A-3D88EAF04263</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

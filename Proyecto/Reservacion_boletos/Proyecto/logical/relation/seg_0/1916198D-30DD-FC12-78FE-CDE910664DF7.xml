@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Pago" directorySegmentName="seg_0" id="1916198D-30DD-FC12-78FE-CDE910664DF7">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:53:40 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<sourcePk>978B6212-0F1C-5216-4C80-8C3F8E716596</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A86B70D5-C04E-3F35-8ECC-DE902CFAA3D5</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>06274255-AE3D-2A58-07A3-E1CE4043BFA6</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Entregas" directorySegmentName="seg_0" id="2D092E7B-C2DE-73B8-E7EE-3FF166AD0B0B">
+<createdBy>Alan</createdBy>
+<createdTime>2020-12-06 02:55:35 UTC</createdTime>
+<ownerDesignName>Proyecto</ownerDesignName>
+<engineerTo>
+<item key="BFEACE0E-8985-81CB-348D-150BFE3FBBCC" value="true"/>
+</engineerTo>
+<sourcePk>C61713DE-A613-E417-0F75-3CE5B935D2F0</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8C5D18EB-F27E-2B0C-884D-4172829FD4FC</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>564C6486-B874-CA19-4A89-677EF380C30B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
