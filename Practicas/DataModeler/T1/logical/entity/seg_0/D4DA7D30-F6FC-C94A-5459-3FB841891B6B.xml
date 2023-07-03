@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D4DA7D30-F6FC-C94A-5459-3FB841891B6B" name="Lineas">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:05:05 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="No. Linea" id="1F480AFB-32BA-FD7F-AC6F-0301F71A8107">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:05:22 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="E4BB7D6E-044E-27D4-F810-08567BF55227">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:05:54 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FA596101-164D-06E3-ECBA-4F95BC9D1996" name="Lineas PK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:05:51 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1F480AFB-32BA-FD7F-AC6F-0301F71A8107</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

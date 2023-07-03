@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Liquida" directorySegmentName="seg_0" id="9138FD2A-8928-2CFC-10C7-C6B3FAAA2B6B">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:50:58 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<sourcePk>21CE8019-7354-0CB0-0809-BE5052B51FEF</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4FC0C0CA-7177-3691-EC1B-B096357F7442</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>A472FE67-FEE8-3D8F-B519-90CFA2486E12</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

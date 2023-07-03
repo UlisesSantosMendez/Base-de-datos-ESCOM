@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Imputa" directorySegmentName="seg_0" id="7CC6251D-39FA-7C83-C077-7DC21A16323F">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:33:57 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>D4DA7D30-F6FC-C94A-5459-3FB841891B6B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4FC0C0CA-7177-3691-EC1B-B096357F7442</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

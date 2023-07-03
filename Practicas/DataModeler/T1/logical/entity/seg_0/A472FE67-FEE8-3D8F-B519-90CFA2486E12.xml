@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A472FE67-FEE8-3D8F-B519-90CFA2486E12" name="Apunte contable">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:49:02 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Codigo" id="812D74AF-1CB5-A531-61F1-C5DC0BCC9680">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:49:23 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Cantidad" id="E623A0E8-D777-B221-6D57-076CE22E38F4">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:49:30 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Código" id="08BBC28B-AE3B-8790-3689-DB8F66791B6C">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:50:58 UTC</createdTime>
+<generatorID>9138FD2A-8928-2CFC-10C7-C6B3FAAA2B6B</generatorID>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<referedAttribute>98D274D6-820D-5778-C540-41101FAF6313</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="79A38445-7DD1-CDA1-1CA5-A359E71EE1A4" name="Apunte contable PK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:49:28 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>812D74AF-1CB5-A531-61F1-C5DC0BCC9680</attributeRef>
+<attributeRef>08BBC28B-AE3B-8790-3689-DB8F66791B6C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

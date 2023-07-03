@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Consta" directorySegmentName="seg_0" id="7B42D5BD-BB3D-2F8C-875A-E4AE94CE6311">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:31:38 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<sourcePk>A4537EFE-63B5-D157-5EBC-8D623C30DA1C</sourcePk>
+<targetPk>FA596101-164D-06E3-ECBA-4F95BC9D1996</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>8B430D7F-C021-2F3C-D7C3-61837734D3EE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D4DA7D30-F6FC-C94A-5459-3FB841891B6B</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Imputare varias" directorySegmentName="seg_0" id="4DC6FF56-6BB5-0BDE-00DC-90261B94709E">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:39:10 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<targetPk>21CE8019-7354-0CB0-0809-BE5052B51FEF</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4FC0C0CA-7177-3691-EC1B-B096357F7442</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>4FC0C0CA-7177-3691-EC1B-B096357F7442</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

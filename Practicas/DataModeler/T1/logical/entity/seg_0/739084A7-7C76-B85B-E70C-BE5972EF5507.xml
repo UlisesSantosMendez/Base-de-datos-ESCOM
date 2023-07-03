@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="739084A7-7C76-B85B-E70C-BE5972EF5507" name="Concepto Retributivo">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:11:52 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Código" id="127AD477-F214-E32A-2BA7-7B2F2B2D365B">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:12:12 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descripción" id="EDA3A1F8-5DA9-C20C-0837-CDB9CD5753BC">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:12:24 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No. Linea" id="1816D602-B2E1-9D98-C0A2-619CAE31CD44">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:26:53 UTC</createdTime>
+<generatorID>046DEEC1-CE55-4552-CFD7-EEF1D04962E2</generatorID>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<referedAttribute>1F480AFB-32BA-FD7F-AC6F-0301F71A8107</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C99BF4F5-653F-0DA9-74A7-1CEB3C7E9D6A" name="Concepto Retributivo PK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:12:22 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>127AD477-F214-E32A-2BA7-7B2F2B2D365B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

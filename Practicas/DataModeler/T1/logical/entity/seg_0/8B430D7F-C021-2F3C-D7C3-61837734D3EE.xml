@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B430D7F-C021-2F3C-D7C3-61837734D3EE" name="Justif. nomina">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 18:49:22 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Ingreso total" id="29924168-1D08-101D-DAD2-EDB515E1B35C">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 18:49:46 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Descuento total" id="5A06488B-770C-08EB-5AC9-EC495C6DD792">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 18:50:04 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No. mes" id="E46875AF-F51D-B33F-5C78-04C1155989D9">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 18:50:14 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No. matricula" id="93B17EE0-9E50-DA69-94DE-0947BE83F95C">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 18:52:45 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ejercicio Fiscal" id="0B613C8A-D949-A95F-5212-A9B6166CB5D3">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 18:54:30 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No. justificante" id="21C2E485-A94A-8530-258F-1E1CF2F31DBC">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 18:56:38 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No. Linea" id="58F61C90-049B-3562-6753-D89943845A34">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:32:46 UTC</createdTime>
+<generatorID>7B42D5BD-BB3D-2F8C-875A-E4AE94CE6311</generatorID>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>1F480AFB-32BA-FD7F-AC6F-0301F71A8107</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="No. matricula1" id="66B73F19-496A-CB79-846E-52D07C1EEFC4">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:47:22 UTC</createdTime>
+<generatorID>4F37705C-68AB-39E4-E90F-2397C1F09A8E</generatorID>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<referedAttribute>1D48C9E6-CF70-41A7-FB18-CE9C7AD229DD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NIF" id="E614AA2A-D6FD-5988-D379-B69384B6EDF6">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 19:47:22 UTC</createdTime>
+<generatorID>4F37705C-68AB-39E4-E90F-2397C1F09A8E</generatorID>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<referedAttribute>80D2D8CE-614A-3F87-B384-0BFDDE8825DD</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A4537EFE-63B5-D157-5EBC-8D623C30DA1C" name="Justif. nomina PK">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 18:57:02 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>21C2E485-A94A-8530-258F-1E1CF2F31DBC</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

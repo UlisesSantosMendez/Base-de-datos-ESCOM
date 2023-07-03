@@ -1,0 +1,33 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_1" directorySegmentName="seg_0" id="B6B4A4E7-B36C-F7A6-8D5F-928E01FF1CCA">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 18:43:23 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<sourcePk>C8FA1C1A-DB9A-DC3D-0D07-6F0B9E33CA07</sourcePk>
+<targetPk>B217AB89-267C-47F2-9A8C-2126D01FF2D1</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>4EC07A73-0C4F-D53E-CE8E-8DFDECAC55F6</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>45848420-3212-36AB-7F92-9302B6CB9D0A</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<attribute name="Trabaja función" id="98194625-167F-B3FB-9E95-3B26A02C8570">
+<createdBy>Fernanda</createdBy>
+<createdTime>2020-12-03 18:47:56 UTC</createdTime>
+<ownerDesignName>T1</ownerDesignName>
+<engineerTo>
+<item key="0C753744-DBED-982F-4FC6-F1821A859F74" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</attribute>
+</attributes>
+</Relation>
